@@ -43,7 +43,11 @@ const AboutMe = () => {
             </div>
 
             <div className="">
-              <img src="/public/taba.jpg" alt="taba" className="rounded-sm" />
+              <img
+                src="/taba.jpg"
+                alt="taba"
+                className="rounded-sm shadow-2xl"
+              />
             </div>
           </div>
         </div>
