@@ -1,4 +1,5 @@
 import React from "react";
+import { Github, SquareArrowOutUpRight } from "lucide-react";
 
 function FeatureProject() {
   return (
@@ -7,9 +8,93 @@ function FeatureProject() {
         <div className="max-w-5xl mx-auto min-h-screen ">
           <div className=" flex justify-center items-center gap-2">
             <div className="flex grow border-b border-gray-500"></div>
-            <div className="text-2xl">Feature Project </div>
+            <div className="text-3xl">Feature Project </div>
             <div className="flex grow border-b border-gray-500"></div>
           </div>
+
+          {/* project 1 start */}
+
+          <div className="flex justify-evenly items-center  w-full mt-20 mb-20">
+            {/* Left Side - Image */}
+            <div className="w-1/2">
+              <img
+                src="/public/salman.png"
+                alt=""
+                className="h-56 w-5/6 rounded-md"
+              />
+            </div>
+
+            {/* Right Side - Text Content */}
+            <div className="w-1/2 flex flex-col gap-3">
+              <h2 className="text-2xl">Project Name</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+                nostrum eum nobis! Rem non sunt officia illum, vel, quibusdam
+                dicta optio facere rerum doloribus perferendis. Quas,
+                praesentium. Incidunt, doloremque rerum?
+              </p>
+              <div className="border-b border-gray-500 w-full"></div>
+
+              {/* Tech List */}
+              <ul className="list-none flex gap-5">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Figma</li>
+                <li>React</li>
+              </ul>
+
+              {/* Icons */}
+              <div className="flex gap-4">
+                <Github />
+                <SquareArrowOutUpRight />
+              </div>
+            </div>
+          </div>
+
+          {/* project 1 end  */}
+
+          {/* project 2 start */}
+
+          <div className="flex justify-evenly items-center  w-full gap-10">
+            {/* Left Side - Image */}
+            <div className="w-1/2 order-4">
+              <img
+                src="/public/salman.png"
+                alt=""
+                className="h-56 w-5/6 rounded-md"
+              />
+            </div>
+
+            {/* Right Side - Text Content */}
+            <div className="w-1/2 flex flex-col gap-3 order-1 items-end">
+              <h2 className="text-2xl">Project Name</h2>
+              <p className="text-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+                nostrum eum nobis! Rem non sunt officia illum, vel, quibusdam
+                dicta optio facere rerum doloribus perferendis. Quas,
+                praesentium. Incidunt, doloremque rerum?
+              </p>
+              <div className="border-b border-gray-500 w-full"></div>
+
+              {/* Tech List */}
+              <ul className="list-none flex gap-5">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Figma</li>
+                <li>React</li>
+              </ul>
+
+              {/* Icons */}
+              <div className="flex gap-4">
+                <Github />
+                <SquareArrowOutUpRight />
+              </div>
+            </div>
+          </div>
+
+          {/* project 2 end  */}
         </div>
       </section>
     </div>
