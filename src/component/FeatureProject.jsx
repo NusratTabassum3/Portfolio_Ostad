@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, SquareArrowOutUpRight } from "lucide-react";
+import OtherProject from "./OtherProject";
 
 function FeatureProject() {
   return (
@@ -95,6 +96,8 @@ function FeatureProject() {
           </div>
 
           {/* project 2 end  */}
+
+          <OtherProject></OtherProject>
         </div>
       </section>
     </div>
