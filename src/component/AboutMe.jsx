@@ -11,9 +11,10 @@ const AboutMe = () => {
             <div className="flex grow border-b border-gray-500"></div>
           </div>
 
-          <div className="flex justify-between gap-3 mt-20">
-            <div className="">
-              <p className="">
+          <div className="flex flex-col lg:flex-row gap-14 mt-20 items-center lg:items-center">
+            {/* Paragraph second on mobile, right on desktop */}
+            <div className="order-2 lg:order-2 max-w-xl text-justify">
+              <p>
                 I am a recent graduate from the American International
                 University-Bangladesh (AIUB) with a strong foundation in web
                 development and hands-on experience in React. During my studies,
@@ -41,12 +42,12 @@ const AboutMe = () => {
                 that I can bring value to your development team.
               </p>
             </div>
-
-            <div className="">
+            {/* Image first on mobile, left on desktop */}
+            <div className="order-1 lg:order-2">
               <img
                 src="/taba.jpg"
                 alt="taba"
-                className="rounded-sm shadow-2xl"
+                className="rounded-sm shadow-2xl w-[200px] md:w-[500px]"
               />
             </div>
           </div>

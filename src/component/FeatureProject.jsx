@@ -15,9 +15,9 @@ function FeatureProject() {
 
           {/* project 1 start */}
 
-          <div className="flex justify-evenly items-center  w-full mt-20 mb-20">
+          <div className="flex flex-col  sm:flex-row justify-evenly items-center  w-full mt-20 mb-20">
             {/* Left Side - Image */}
-            <div className="w-1/2">
+            <div className="mb-5 w-1/2">
               <img
                 src="/public/salman.png"
                 alt=""
@@ -57,9 +57,9 @@ function FeatureProject() {
 
           {/* project 2 start */}
 
-          <div className="flex justify-evenly items-center  w-full gap-10">
+          <div className="flex flex-col  sm:flex-row justify-evenly items-center  w-full gap-10">
             {/* Left Side - Image */}
-            <div className="w-1/2 order-4">
+            <div className="order:5 sm:order-10 w-1/2 ">
               <img
                 src="/public/salman.png"
                 alt=""
@@ -68,9 +68,9 @@ function FeatureProject() {
             </div>
 
             {/* Right Side - Text Content */}
-            <div className="w-1/2 flex flex-col gap-3 order-1 items-end">
+            <div className="order:10   sm:order-5  w-1/2 flex flex-col gap-3  sm:items-end">
               <h2 className="text-2xl">Project Name</h2>
-              <p className="text-end">
+              <p className="sm:text-end">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
                 nostrum eum nobis! Rem non sunt officia illum, vel, quibusdam
                 dicta optio facere rerum doloribus perferendis. Quas,
