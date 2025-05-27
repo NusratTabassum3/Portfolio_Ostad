@@ -18,11 +18,7 @@ function FeatureProject() {
           <div className="flex flex-col  sm:flex-row justify-evenly items-center  w-full mt-20 mb-20">
             {/* Left Side - Image */}
             <div className="mb-5 w-1/2">
-              <img
-                src="/public/salman.png"
-                alt=""
-                className="h-56 w-5/6 rounded-md"
-              />
+              <img src="/salman.png" alt="" className="h-56 w-5/6 rounded-md" />
             </div>
 
             {/* Right Side - Text Content */}
@@ -60,11 +56,7 @@ function FeatureProject() {
           <div className="flex flex-col  sm:flex-row justify-evenly items-center  w-full gap-10">
             {/* Left Side - Image */}
             <div className="order:5 sm:order-10 w-1/2 ">
-              <img
-                src="/public/salman.png"
-                alt=""
-                className="h-56 w-5/6 rounded-md"
-              />
+              <img src="/salman.png" alt="" className="h-56 w-5/6 rounded-md" />
             </div>
 
             {/* Right Side - Text Content */}

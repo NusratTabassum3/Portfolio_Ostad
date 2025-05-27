@@ -14,7 +14,7 @@ const OtherProject = () => {
         <div className="flex items-start gap-4 ">
           <div>
             <img
-              src="/public/salman.png"
+              src="/salman.png"
               alt="Project"
               className="h-32 w-36 rounded-md "
             />
@@ -44,7 +44,7 @@ const OtherProject = () => {
         <div className="flex items-start gap-4 ">
           <div>
             <img
-              src="/public/salman.png"
+              src="/salman.png"
               alt="Project"
               className="h-32 w-36 rounded-md "
             />
@@ -74,7 +74,7 @@ const OtherProject = () => {
         <div className="flex items-start gap-4 ">
           <div>
             <img
-              src="/public/salman.png"
+              src="/salman.png"
               alt="Project"
               className="h-32 w-36 rounded-md "
             />
@@ -104,7 +104,7 @@ const OtherProject = () => {
         <div className="flex items-start gap-4 ">
           <div>
             <img
-              src="/public/salman.png"
+              src="/salman.png"
               alt="Project"
               className="h-32 w-36 rounded-md "
             />
