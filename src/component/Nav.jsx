@@ -20,9 +20,12 @@ const Nav = () => {
           </div>
 
           <div className="hidden md:block">
-            <button className="border border-gray-500  py-1 px-2 mr-2 rounded-sm">
-              Resume
-            </button>
+            <a href="/Nusrat Tabassum.pdf" className="" download>
+              <button className="border border-gray-500  py-1 px-2 mr-2 rounded-sm">
+                Resume
+              </button>
+            </a>
+
             <button className="border border-gray-500  py-1 px-2 rounded-sm">
               Hire Me{" "}
             </button>
