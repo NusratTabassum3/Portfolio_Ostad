@@ -25,8 +25,23 @@ const Contact = () => {
 
         <div className="flex flex-col gap-5 justify-center items-center mt-32">
           <div className="flex gap-4 text-[#1F1F1F]">
-            <Github className="w-8 h-8 stroke-[1] " />
-            <Linkedin className="w-8 h-8 stroke-[1]" />
+            <a
+              href="https://github.com/NusratTabassum3/Dream-Study-International"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:cursor-pointer hover:text-blue-800"
+            >
+              <Github className="w-8 h-8 stroke-[1] " />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/nusrat-tabassum-43a677214/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:cursor-pointer hover:text-blue-800"
+            >
+              <Linkedin className="w-8 h-8 stroke-[1]" />
+            </a>
           </div>
 
           <div className="">

@@ -20,7 +20,7 @@ const OtherProject = () => {
             />
           </div>
           <div className="flex flex-col gap-1">
-            <h2 className="text-lg font-semibold">Project Name</h2>
+            <h2 className="text-lg font-semibold">Dream Study International</h2>
             <p className="text-sm text-[#1F1F1F]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
               nostrum eum nobis! Rem non sunt officia illum.
@@ -34,8 +34,22 @@ const OtherProject = () => {
               <li className="">React</li>
             </ul>
             <div className="flex gap-4 text-[#1F1F1F]">
-              <Github className="w-4 h-4" />
-              <SquareArrowOutUpRight className="w-4 h-4" />
+              <a
+                href="https://github.com/NusratTabassum3/Dream-Study-International"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:cursor-pointer"
+              >
+                <Github className="w-4 h-4" />
+              </a>
+              <a
+                href="https://incandescent-quokka-9a296c.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:cursor-pointer"
+              >
+                <SquareArrowOutUpRight className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>
@@ -50,7 +64,7 @@ const OtherProject = () => {
             />
           </div>
           <div className="flex flex-col gap-1">
-            <h2 className="text-lg font-semibold">Project Name</h2>
+            <h2 className="text-lg font-semibold">Dream Study International</h2>
             <p className="text-sm text-[#1F1F1F]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
               nostrum eum nobis! Rem non sunt officia illum.
@@ -64,8 +78,22 @@ const OtherProject = () => {
               <li className="">React</li>
             </ul>
             <div className="flex gap-4 text-[#1F1F1F]">
-              <Github className="w-4 h-4" />
-              <SquareArrowOutUpRight className="w-4 h-4" />
+              <a
+                href="https://github.com/NusratTabassum3/Dream-Study-International"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:cursor-pointer"
+              >
+                <Github className="w-4 h-4" />
+              </a>
+              <a
+                href="https://incandescent-quokka-9a296c.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:cursor-pointer"
+              >
+                <SquareArrowOutUpRight className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>
@@ -80,7 +108,7 @@ const OtherProject = () => {
             />
           </div>
           <div className="flex flex-col gap-1">
-            <h2 className="text-lg font-semibold">Project Name</h2>
+            <h2 className="text-lg font-semibold">Dream Study International</h2>
             <p className="text-sm text-[#1F1F1F]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
               nostrum eum nobis! Rem non sunt officia illum.
@@ -94,8 +122,22 @@ const OtherProject = () => {
               <li className="">React</li>
             </ul>
             <div className="flex gap-4 text-[#1F1F1F]">
-              <Github className="w-4 h-4" />
-              <SquareArrowOutUpRight className="w-4 h-4" />
+              <a
+                href="https://github.com/NusratTabassum3/Dream-Study-International"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:cursor-pointer"
+              >
+                <Github className="w-4 h-4" />
+              </a>
+              <a
+                href="https://incandescent-quokka-9a296c.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:cursor-pointer"
+              >
+                <SquareArrowOutUpRight className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>
@@ -110,7 +152,7 @@ const OtherProject = () => {
             />
           </div>
           <div className="flex flex-col gap-1">
-            <h2 className="text-lg font-semibold">Project Name</h2>
+            <h2 className="text-lg font-semibold">Dream Study International</h2>
             <p className="text-sm text-[#1F1F1F]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
               nostrum eum nobis! Rem non sunt officia illum.
@@ -124,8 +166,22 @@ const OtherProject = () => {
               <li className="">React</li>
             </ul>
             <div className="flex gap-4 text-[#1F1F1F]">
-              <Github className="w-4 h-4" />
-              <SquareArrowOutUpRight className="w-4 h-4" />
+              <a
+                href="https://github.com/NusratTabassum3/Dream-Study-International"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:cursor-pointer hover:text-blue-800"
+              >
+                <Github className="w-4 h-4" />
+              </a>
+              <a
+                href="https://incandescent-quokka-9a296c.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:cursor-pointer"
+              >
+                <SquareArrowOutUpRight className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>

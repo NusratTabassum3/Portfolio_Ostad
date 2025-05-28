@@ -30,7 +30,7 @@ function FeatureProject() {
 
             {/* Right Side - Text Content */}
             <div className="w-1/2 flex flex-col gap-3">
-              <h2 className="text-2xl">Project Name</h2>
+              <h2 className="text-2xl">Dream Study International</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
                 nostrum eum nobis! Rem non sunt officia illum, vel, quibusdam
@@ -50,8 +50,22 @@ function FeatureProject() {
 
               {/* Icons */}
               <div className="flex gap-4">
-                <Github />
-                <SquareArrowOutUpRight />
+                <a
+                  href="https://github.com/NusratTabassum3/Dream-Study-International"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:cursor-pointer hover:text-blue-800"
+                >
+                  <Github className="" />
+                </a>
+                <a
+                  href="https://incandescent-quokka-9a296c.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:cursor-pointer"
+                >
+                  <SquareArrowOutUpRight className="" />
+                </a>
               </div>
             </div>
           </motion.div>
@@ -74,7 +88,7 @@ function FeatureProject() {
 
             {/* Right Side - Text Content */}
             <div className="order:10   sm:order-5  w-1/2 flex flex-col gap-3  sm:items-end">
-              <h2 className="text-2xl">Project Name</h2>
+              <h2 className="text-2xl">Dream Study International</h2>
               <p className="sm:text-end">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
                 nostrum eum nobis! Rem non sunt officia illum, vel, quibusdam
@@ -94,8 +108,22 @@ function FeatureProject() {
 
               {/* Icons */}
               <div className="flex gap-4">
-                <Github />
-                <SquareArrowOutUpRight />
+                <a
+                  href="https://github.com/NusratTabassum3/Dream-Study-International"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:cursor-pointer hover:text-blue-800"
+                >
+                  <Github className="" />
+                </a>
+                <a
+                  href="https://incandescent-quokka-9a296c.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:cursor-pointer"
+                >
+                  <SquareArrowOutUpRight className="" />
+                </a>
               </div>
             </div>
           </motion.div>

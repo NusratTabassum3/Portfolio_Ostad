@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
@@ -12,7 +13,13 @@ const Experience = () => {
           </div>
 
           {/* company 1 */}
-          <div className="flex flex-col  md:flex-row justify-around md:items-center gap-10 mt-16 ">
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            viewport={{ once: false, amount: 0.5 }}
+            className="flex flex-col  md:flex-row justify-around md:items-center gap-10 mt-16 "
+          >
             {/* Company Info */}
             <div className=" md:flex flex-col justify-center items-center w-1/3">
               <h3 className="text-lg font-semibold">Frontend Development</h3>
@@ -39,11 +46,17 @@ const Experience = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </motion.div>
 
           <div className="block w-full border-b border-gray-500 m-8 md:hidden"></div>
           {/* company 2 */}
-          <div className="flex flex-col items-start md:flex-row justify-around md:items-center gap-10 md:mt-40">
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            viewport={{ once: false, amount: 0.5 }}
+            className="flex flex-col items-start md:flex-row justify-around md:items-center gap-10 md:mt-40"
+          >
             {/* Responsibilities */}
             <div className="order-2 md:order-1 md:border-r border-gray-500 px-6 ">
               <ul className="list-disc space-y-2 text-sm pl-4">
@@ -70,7 +83,7 @@ const Experience = () => {
               <div className=" hidden md:block w-full border-b border-gray-500"></div>
               <p className="text-sm">September 2024 - January 2025</p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
     </div>
