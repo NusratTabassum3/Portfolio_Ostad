@@ -1,6 +1,7 @@
 import React from "react";
 import { Github, SquareArrowOutUpRight } from "lucide-react";
 import OtherProject from "./OtherProject";
+import { motion } from "motion/react";
 
 function FeatureProject() {
   return (
@@ -15,7 +16,13 @@ function FeatureProject() {
 
           {/* project 1 start */}
 
-          <div className="flex flex-col  sm:flex-row justify-evenly items-center  w-full mt-20 mb-20">
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            viewport={{ once: false, amount: 0.5 }}
+            className="flex flex-col  sm:flex-row justify-evenly items-center  w-full mt-20 mb-20"
+          >
             {/* Left Side - Image */}
             <div className="mb-5 w-1/2">
               <img src="/salman.png" alt="" className="h-56 w-5/6 rounded-md" />
@@ -47,13 +54,19 @@ function FeatureProject() {
                 <SquareArrowOutUpRight />
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* project 1 end  */}
 
           {/* project 2 start */}
 
-          <div className="flex flex-col  sm:flex-row justify-evenly items-center  w-full gap-10">
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            viewport={{ once: false, amount: 0.5 }}
+            className="flex flex-col  sm:flex-row justify-evenly items-center  w-full gap-10"
+          >
             {/* Left Side - Image */}
             <div className="order:5 sm:order-10 w-1/2 ">
               <img src="/salman.png" alt="" className="h-56 w-5/6 rounded-md" />
@@ -85,7 +98,7 @@ function FeatureProject() {
                 <SquareArrowOutUpRight />
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* project 2 end  */}
 
