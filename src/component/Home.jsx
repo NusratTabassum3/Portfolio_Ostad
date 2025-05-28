@@ -1,6 +1,6 @@
 import React from "react";
 import { ChevronsDown } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 import Nav from "./Nav";
 const Home = () => {
@@ -27,6 +27,7 @@ const Home = () => {
           >
             I design and build things.
           </motion.p>
+
           <ChevronsDown />
         </div>
       </section>

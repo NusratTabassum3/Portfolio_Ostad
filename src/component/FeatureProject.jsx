@@ -1,7 +1,7 @@
 import React from "react";
 import { Github, SquareArrowOutUpRight } from "lucide-react";
 import OtherProject from "./OtherProject";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 function FeatureProject() {
   return (
