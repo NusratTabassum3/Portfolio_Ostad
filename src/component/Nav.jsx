@@ -26,7 +26,7 @@ const Nav = () => {
               </button>
             </a>
 
-            <button className="border border-gray-500  py-1 px-2 rounded-sm">
+            <button className="border border-gray-500  py-1 px-2 rounded-sm ml-3 ">
               Hire Me{" "}
             </button>
           </div>
