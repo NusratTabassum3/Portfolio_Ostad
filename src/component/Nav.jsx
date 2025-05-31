@@ -7,7 +7,9 @@ const Nav = () => {
       <section className="max-w-6xl mx-auto mt-6">
         <div className="flex justify-around items-center">
           <div>
-            <h3 className="cursor-pointer hover:text-sky-600">Portfolio</h3>
+            <h3 className="cursor-pointer hover:text-sky-600  transition-all duration-300 text-xl">
+              Portfolio
+            </h3>
           </div>
 
           <ul className="hidden md:flex justify-between items-center gap-3">
