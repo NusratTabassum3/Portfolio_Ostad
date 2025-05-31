@@ -18,33 +18,80 @@ const Contact = () => {
             could contact me with any available job opportunities.
           </p>
 
-          <button className="border border-[#C4C4C4] px-5 py-2 rounded-lg">
-            Write Massage
-          </button>
-        </div>
+          <form className="bg-white p-6 rounded-2xl shadow-md w-full max-w-md">
+            {/* Name Field */}
+            <div className="mb-4">
+              <label htmlFor="name" className="block text-gray-700 mb-2">
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              />
+            </div>
 
+            {/* Email Field */}
+            <div className="mb-4">
+              <label htmlFor="email" className="block text-gray-700 mb-2">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              />
+            </div>
+
+            {/* Message Field */}
+            <div className="mb-4">
+              <label htmlFor="message" className="block text-gray-700 mb-2">
+                Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your message here"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-blue-400"
+              ></textarea>
+            </div>
+
+            {/* Submit Button */}
+            <button
+              type="submit"
+              className="w-full bg-sky-500 hover:bg-sky-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
+            >
+              Send
+            </button>
+          </form>
+        </div>
         <div className="flex flex-col gap-5 justify-center items-center mt-32">
           <div className="flex gap-4 text-[#1F1F1F]">
             <a
               href="https://github.com/NusratTabassum3/Dream-Study-International"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:cursor-pointer hover:text-blue-800"
+              className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
             >
-              <Github className="w-8 h-8 stroke-[1] " />
+              <Github className="w-8 h-8 stroke-[1]" />
             </a>
 
             <a
               href="https://www.linkedin.com/in/nusrat-tabassum-43a677214/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:cursor-pointer hover:text-blue-800"
+              className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
             >
               <Linkedin className="w-8 h-8 stroke-[1]" />
             </a>
           </div>
 
-          <div className="">
+          <div className="mb-16">
             <p className="text-[#1F1F1F]">Nusrat Tabassum - 2025</p>
           </div>
         </div>

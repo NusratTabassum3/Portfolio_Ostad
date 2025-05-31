@@ -38,15 +38,16 @@ const OtherProject = () => {
                 href="https://github.com/NusratTabassum3/Dream-Study-International"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:cursor-pointer"
+                className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
               >
                 <Github className="w-4 h-4" />
               </a>
+
               <a
                 href="https://incandescent-quokka-9a296c.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:cursor-pointer"
+                className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
               >
                 <SquareArrowOutUpRight className="w-4 h-4" />
               </a>
@@ -82,15 +83,16 @@ const OtherProject = () => {
                 href="https://github.com/NusratTabassum3/Dream-Study-International"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:cursor-pointer"
+                className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
               >
                 <Github className="w-4 h-4" />
               </a>
+
               <a
                 href="https://incandescent-quokka-9a296c.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:cursor-pointer"
+                className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
               >
                 <SquareArrowOutUpRight className="w-4 h-4" />
               </a>
@@ -126,15 +128,16 @@ const OtherProject = () => {
                 href="https://github.com/NusratTabassum3/Dream-Study-International"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:cursor-pointer"
+                className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
               >
                 <Github className="w-4 h-4" />
               </a>
+
               <a
                 href="https://incandescent-quokka-9a296c.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:cursor-pointer"
+                className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
               >
                 <SquareArrowOutUpRight className="w-4 h-4" />
               </a>
@@ -170,15 +173,16 @@ const OtherProject = () => {
                 href="https://github.com/NusratTabassum3/Dream-Study-International"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:cursor-pointer hover:text-blue-800"
+                className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
               >
                 <Github className="w-4 h-4" />
               </a>
+
               <a
                 href="https://incandescent-quokka-9a296c.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:cursor-pointer"
+                className="p-2 rounded-full transition duration-300 transform hover:scale-110 hover:bg-gray-200 hover:text-sky-600"
               >
                 <SquareArrowOutUpRight className="w-4 h-4" />
               </a>
